@@ -88,7 +88,7 @@ class _HomePageState extends State<HomePage>
           children: [
     
             const Text(
-              'hello hello new patch add commit',
+              'hello hello new patch testtest',
               style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
