@@ -24,7 +24,9 @@ class MainApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         useMaterial3: true,
       ),
-      home: const HomePage(),
+      home: Center(
+       child: Text("Hello World"),
+      )
     );
   }
 }
