@@ -9,6 +9,9 @@ void main() async {
   final status = await updater.checkForUpdate();
   print('🔍 Update status: $status'); 
 
+  final patch = await ShorebirdUpdater().readCurrentPatch();
+  print('📦 Patch number: ${patch?.number}}');
+
   runApp(const MainApp());
 }
 
