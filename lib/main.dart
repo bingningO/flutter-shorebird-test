@@ -24,7 +24,7 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Simple Example',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.green,
         useMaterial3: true,
       ),
       home:  VersionInfoWidget()
