@@ -31,13 +31,18 @@ class _VersionInfoWidgetState extends State<VersionInfoWidget> {
     });
   }
 
+  String getDynamicText() {
+    return "Hello world";
+  }
+
   @override
   Widget build(BuildContext context) {
     return Column(
       children: [
         SizedBox(height: 300),
-        Text("hello patch patch yayayayyayaya 22222"),
+        Text(getDynamicText()),
         // Text('📦 Release Version: $_releaseVersion'),
+        SizedBox(height: 60),
         Text('🩹 Patch Number: $_patchNumber'),
       ],
     );
