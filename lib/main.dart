@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'home_page.dart';
+import 'version_info.dart';
 import 'package:shorebird_code_push/shorebird_code_push.dart';
 
 void main() async {
@@ -27,9 +27,7 @@ class MainApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         useMaterial3: true,
       ),
-      home: Center(
-       child: Text("Hello World patch patch "),
-      )
+      home:  VersionInfoWidget()
     );
   }
 }
