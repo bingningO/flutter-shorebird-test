@@ -32,7 +32,7 @@ class _VersionInfoWidgetState extends State<VersionInfoWidget> {
   }
 
   String getDynamicText() {
-    return "Hello world";
+    return "Hello Patch!";
   }
 
   @override
