@@ -36,7 +36,7 @@ class _VersionInfoWidgetState extends State<VersionInfoWidget> {
     return Column(
       children: [
         SizedBox(height: 300),
-        Text("hello world"),
+        Text("hello patch"),
         // Text('📦 Release Version: $_releaseVersion'),
         Text('🩹 Patch Number: $_patchNumber'),
       ],
